@@ -1,5 +1,6 @@
 .container {
   width:1140px;
+  margin: 0 auto;
 }
 
 body {
@@ -43,7 +44,7 @@ li a {
 }
 
 .hero {
-background-image: url("https://assets.codepen.io/7582874/uH7g1N.jpeg");
+background-image: url("images/hero-image.jpg");
   height: 75vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,34 +55,59 @@ background-image: url("https://assets.codepen.io/7582874/uH7g1N.jpeg");
   align-items: center;
 }
 
+
 h1 {
   color: white;
   font-family: sans-serif;
   background: #F28444;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   margin: 0;
+  font-size: 3rem;
 }
 
+h2 {
+ font-family: sans-serif;
+ color: white;
+}
+
+.hero h2 {
+  color: #EF6EC7;
+  font-size: 4rem;
+}
+
+.film-tv {
+  background-color: #EF6EC7;
+}
+
+.early-life {
+  background-color: #6495ed;
+}
+
+.achievements-section {
+  background-color: #6495ed;
+}
+
+img {
+  width: 25px;
+
+}
 footer {
   margin: auto;
   padding: 25px;
   color: #FFF;
-  background-color: #F28444;
+  background-color: #EF6EC7;
   font-family: "lato", sans-serif;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
+  padding-left: 30px;
 }
 
 button {
-  background-color: #6495ed;
-  border: none;
-  color: white; 
-  
-  }
-  
-img {
-  width: 25px;
+background-color: #6495ed;
+color: white;
+border-color:#EF6EC7;
+border-radius: 10%;
 }
 
 .section {
@@ -125,9 +151,6 @@ img {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  border: 3px solid #F2ACE0;
+  border: 3px solid #EF6EC7;
 }
 
-h2 {
- 
-}
