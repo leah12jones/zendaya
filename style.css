@@ -6,6 +6,13 @@
 body {
   margin: 0;
   padding: 0;
+  
+}
+
+p {
+  line-height: 1.3;
+  font-size: 1.2rem;
+  font-family: sans-serif;
 }
 
 ul {
@@ -51,8 +58,15 @@ background-image: url("images/hero-image.jpg");
   background-size: cover;
   display: flex;
   flex-direction:column;
-  justify-content: center;
-  align-items: center;
+}
+
+.hero h2 {
+  padding-left:825px;
+  padding-top:420px;
+}
+
+.hero img {
+  padding-left:100px;
 }
 
 
@@ -118,11 +132,13 @@ border-radius: 10%;
 
 .section-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-text {
   width: 55%;
-  padding: 15px;
+  padding: 25px;
 }
 
 .card-image {
@@ -152,5 +168,11 @@ border-radius: 10%;
   height: 250px;
   object-fit: cover;
   border: 3px solid #EF6EC7;
+}
+
+.footer-image {
+  background-image: url(images/footer-photo@2x.jpg);
+  height:600px;
+  background-size:cover;
 }
 
