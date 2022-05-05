@@ -1,3 +1,4 @@
+
 .container {
   width:1140px;
   margin: 0 auto;
@@ -13,6 +14,7 @@ p {
   line-height: 1.7;
   font-family: sans-serif;
 }
+
 
 ul {
   
@@ -120,12 +122,11 @@ footer {
 .section-container {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .card-text {
   width: 70%;
-  padding: 0 70px;
+  padding: 25px 70px 0;
 }
 
 .card-image {
@@ -167,7 +168,5 @@ footer h1 {
   background: transparent;
   color:#6495ed;
   text-align: center;
-  
-
 }
 
