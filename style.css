@@ -100,6 +100,7 @@ h2 {
 
 img {
   width: 25px;
+  padding-left: 15px;
 
 }
 footer {
@@ -108,9 +109,10 @@ footer {
   color: #FFF;
   background-color: #EF6EC7;
   font-family: "lato", sans-serif;
-  font-size: 16px;
-  text-align: right;
+  font-size: 10px;
+  text-align: left;
   padding-left: 30px;
+  padding-top:20px;
 }
 
 .section {
@@ -166,7 +168,8 @@ footer {
 
 footer h1 {
   background: transparent;
-  color:#6495ed;
+  color:#2B2E40;
   text-align: center;
+  padding: 0px;
 }
 
